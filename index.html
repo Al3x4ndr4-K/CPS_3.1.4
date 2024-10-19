@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CPS</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header-menu">
+        <div class="header__container container">
+          <div class="header__nav-buttons_left-side">
+            <button class="header__burger-button button" type="button">
+              <img src="./icons/burger-icon.svg" alt="" class="burger-button" />
+            </button>
+            <div class="header__divider_left-side divider">
+              <img src="./icons/divider.svg" alt="" class="divider" />
+            </div>
+            <a href="/" class="header-logo">
+              <img
+                class="header__logo-image"
+                src="./icons/logo.svg"
+                alt="CPS logo"
+                width="96px"
+                height="50px"
+                loading="lazy"
+              />
+            </a>
+          </div>
+          <div class="header__nav-buttons_right-side">
+            <button class="header__phone-button size-phone button">
+              <img
+                src="./icons/phone.svg"
+                alt=""
+                class="phone-button"
+                type="button"
+              />
+            </button>
+            <button class="header__chat-button size-phone button">
+              <img
+                src="./icons/chat.svg"
+                alt=""
+                class="chat-button"
+                type="button"
+              />
+            </button>
+            <button class="header__profile-button size-phone button">
+              <img
+                src="./icons/profile.svg"
+                alt=""
+                class="profile-button"
+                type="button"
+              />
+            </button>
+            <div class="header__divider_right-side divider">
+              <img src="./icons/divider.svg" alt="" class="divider" />
+            </div>
+            <div class="header__button-container">
+              <span class="header__button-description size-pc"
+                >Оставить заявку</span
+              >
+              <button class="button" type="button">
+                <img
+                  src="./icons/repair-button.svg"
+                  alt=""
+                  class="repair-button"
+                />
+              </button>
+            </div>
+            <div class="header__button-container">
+              <span class="header__button-description size-pc"
+                >Статус ремонта</span
+              >
+              <button class="header__check-button button" type="button">
+                <img
+                  src="./icons/checkstatus.svg"
+                  alt=""
+                  class="check-button"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="service__main-container">
+        <div class="main__tittle_current">
+          <h1 class="main__tittle">Услуги и сервисы</h1>
+        </div>
+        <section class="services">
+          <div class="service-container__list">
+            <ul class="sevices__list">
+              <li class="services__item">
+                <a href="/" class="service__item-position"
+                  >Ремонтируемые бренды</a
+                >
+              </li>
+              <li class="services__item">
+                <a href="/" class="service__item-position"
+                  >Ремонтируемые устройства</a
+                >
+              </li>
+              <li class="services__item">
+                <a href="/" class="service__item-position">Цены на услуги</a>
+              </li>
+              <li class="services__item">
+                <a href="/" class="service__item-position"
+                  >Адреса сервисных центров</a
+                >
+              </li>
+              <li class="services__item">
+                <a href="/" class="service__item-position">Специальные цены</a>
+              </li>
+              <li class="services__item">
+                <a href="/" class="service__item-position">Отзывы</a>
+              </li>
+            </ul>
+          </div>
+          <div class="service__description-container_full-block">
+            <div class="service__description-container_wrap">
+              <div class="service__description-container left-side-container">
+                <p class="service__description-text">
+                  Мы являемся авторизованным сервисным центром по ремонту
+                  техники Dell. Только у нас вы можете отремонтировать свой
+                  ноутбук Dell с официальной гарантией производителя.
+                  <br />
+                  <br />
+                  Мы успешно работаем с 1992 года и заслужили репутацию
+                  надежного партнера, что подтверждает большое количество
+                  постоянных клиентов. Мы гордимся тем, что к нам обращаются по
+                  рекомендациям и, в свою очередь, советуют нас родным и
+                  близким.
+                  <br />
+                  <br />
+                </p>
+              </div>
+              <div class="service__description-continue left-side-container">
+                <button
+                  id="toggleButton"
+                  class="description-continue-button"
+                  type="button"
+                >
+                  <img
+                    src="./icons/expand.svg"
+                    alt=""
+                    class="service__description_expand"
+                  />
+                  <span class="service__description_expand-text"
+                    >Читать далее</span
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="service__image-container">
+              <img
+                src="./images/service-image.jpg"
+                alt="CPS company"
+                class="service_image"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
